@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'a1-trap-test',
+  srcs = [
+    'a1-trap-test.c',
+  ],
+  deps = [
+    '//:pixman',
+  ],
+)

@@ -53,3 +53,8 @@ test/trap-crasher
 *.ilk
 *.obj
 *.exe
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
